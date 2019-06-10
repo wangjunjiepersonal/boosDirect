@@ -1,0 +1,306 @@
+
+/*??*/
+.btn{
+	border: 1px solid #5dd5c8;
+	font-size: 0.9rem;
+	padding: 0.3em 1rem;
+	border-radius: 2rem;
+	outline:none;
+}
+.top_bar img{
+	height: 1rem;
+}
+
+.top_bar form {
+	width: 40%;
+	border: 1px solid #5BD4C7;
+	border-radius: 2rem;
+	padding: 0 0.5rem;
+	
+}
+.top_bar form input {
+	border:none;
+	background: none;
+	line-height: 1.5rem;
+	width: 80%;
+	color: #aaa;
+	font-size: 0.9rem;
+	outline: none;
+}
+.top_bar form button{
+	border:none;
+	background: url(../img/icons.png) no-repeat top center;
+	background-size: 100% auto;
+	display: inline-block;
+	width: 1rem;
+	height: 1rem;
+}
+
+.job_info{
+	background-color: #62d5c8;
+	color: #fff;
+}
+.job_info .title{
+	font-size: 1.2rem;
+}
+
+.job_info .props{
+	font-size: 0.8rem;
+	margin: 0.5rem 0;
+}
+.job_info .props .items i{
+	display: inline-block;
+	width: 1px;
+	height: 0.8rem;
+	background-color: #fff;
+	margin: 0 0.5rem;
+}
+.job_info .tags{
+	margin-top: 1rem;
+}
+.job_info .tags span{
+	border: 1px solid #fff;
+	padding: 0.2em 0.5rem;
+	border-radius: 2rem;
+	font-size: 0.75rem;
+}
+
+.user_info{
+	background-color: #eefbf9;
+}
+
+.user_info>img{
+	height: 3.5rem;
+	border-radius: 3.5rem;
+}
+.user_info>button{
+	background-color: #5dd5c8;
+	color: #fff;
+	flex-shrink: 0;
+}
+.user_info .info{
+	flex:1 1 50%;
+	margin: 0 2rem;
+}
+.user_info .name{
+	color: #333;
+	font-size: 1rem;
+	width: 10rem;
+	margin-bottom: 0.5rem;
+}
+.user_info .name .like{
+	font-size: 0.8rem;
+	color: #fb7042;
+}
+.user_info .desc{
+	font-size: 0.8rem;
+	color: #9fa3af;
+}
+
+.job_detail{}
+.job_detail h3{
+	color: #333;
+	font-size: 1rem;
+	position: relative;
+	margin: 1rem 0;
+}
+.job_detail h3:after{
+	content: '';
+	width: 1rem;
+	height: 2px;
+	display: inline-block;
+	background-color: #5dd5c8;
+	position: absolute;
+	top: 1.8rem;
+	left: 0;
+}
+.job_detail .text{
+	font-size: 0.9rem;
+	line-height: 1.5rem;
+}
+.job_detail .tags{
+	margin-top: 1.5rem;
+}
+.job_detail .tags span{
+	font-size: 0.85rem;
+	color: #5dd5c8;
+	border: 1px solid #5dd5c8;
+	padding: 0.2rem 0.5rem;
+	border-radius: 1rem;
+	margin-right: 0.5rem;
+	margin-bottom: 0.3rem;
+	display: inline-block;
+}
+.job_detail .text table{
+	border: 1px solid #ebecef;
+	padding: 0.7rem 0.3rem;
+	font-size: 0.75rem;
+	
+}
+.job_detail .text table th{
+	font-weight: normal;
+	width: 6rem;
+	color: #9fa3b0;
+}
+.job_detail .text table td{
+	width: 8rem;
+}
+.job_detail p{
+	margin: 1.2rem 0 1rem 0;
+	color: #7e8793;
+	font-size: 0.9rem
+}
+.company_info{
+	background-color: #EEFBF9;
+}
+
+.company_info img{
+	height: 3.5em;
+	border-radius: 3.5rem;
+}
+.company_info .info{
+	flex: 1;
+	margin-left: 2rem;
+}
+.company_info .info .name{
+	color: #333;
+	font-size: 0.9rem;
+}
+.company_info .info .name .btn{
+	background-color: #fff;
+	color: #5dd5c8;
+}
+.company_info .info .desc{
+	font-size: 0.8rem;
+	color: #333;
+}
+.company_info .info .tags{
+	margin-top: 0.5rem;
+	font-size: 0.75rem;
+	justify-content: flex-start;
+}
+.company_info .info .tags i{
+	display: inline-block;
+	width: 1px;
+	height: 0.8rem;
+	background-color: #aaa;
+	margin: 0 0.5rem;
+	
+}
+
+.post_list h3{
+	color: #767f96;
+	font-weight: normal;
+	font-size: 0.9rem;
+	
+}
+.post_list .post_list_item{
+	margin: 1rem;
+	color: #414a60;
+	border-top: 1px solid #f5f8f9;
+	padding-top: 0.5rem;
+}
+.post_list .post_list_item>img{
+	width: 5.5em;
+	border-radius: 0.3rem;
+}
+.post_list .post_list_item .btn{
+	border: 1px solid #5dd5c8;
+	background-color: #fff;
+	color: #5dd5c8;;
+}
+.post_list .text{
+	flex: 1;
+	margin-left: 1rem;
+}
+.post_list .title{
+	font-size: 1rem;
+}
+.post_list .title span{
+	font-size: 1.2rem;
+	color: #fc6c38;
+	
+}
+.post_list .company{
+	font-size: 0.8rem;
+	margin: 0.2em 0;
+}
+
+.post_list .props{
+	font-size: 0.8rem;
+	margin-left: -0.2rem;
+}
+.post_list .props span{
+	padding: 0 0.2rem;
+}
+
+.related_companies h3{
+	color: #767f96;
+	font-weight: normal;
+	font-size: 0.9rem;
+	margin-bottom: 0.5rem;
+}
+.related_companies .tags a{
+	color: #9fa3b0;
+	font-size: 0.8rem;
+	margin: 0 0.7rem 0.2rem 0;
+}
+
+.job_footer{
+	
+	border-top: 1px solid #edecef;
+	 
+}
+.job_footer a{
+	color: #9fa3b0;
+	font-size: 0.8rem;
+	margin: 0 0.7rem 0.2rem 0;
+}
+.job_footer i{
+	color:#9fa3b0 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

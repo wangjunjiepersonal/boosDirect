@@ -1,0 +1,193 @@
+
+
+.list_header{
+	padding: 0.7rem 1rem;
+}
+.list_header img{
+	height: 1.2rem;
+}
+.list_header form{
+	width: 100%;
+}
+.list_header form .inner{
+	width: 100%;
+	background-color: #f4f7f9;
+	margin: 0 1rem;
+	line-height: 1.5rem;
+	border-radius: 2rem;
+	padding: 0 1rem;
+}
+.list_header form .inner .indexs:after{
+	content:'';
+	display: inline-block;
+	width: 4px;
+	height: 4px;
+	border: 1px solid #999;
+	margin-left: 0.5rem;
+	border-style: solid none none solid;
+	transform: rotate(225deg);
+	transform-origin:2px 1px ;
+	transition: all 0.3s;
+}
+.list_header form .inner span{
+	font-size: 1rem;
+	color:#bbc5cc;
+}
+.list_header form .inner input{
+	width: 80%;
+	background: transparent;
+	border:none;
+	height: 2rem;
+}
+.list_header form button{
+	border:none;
+	background-color: #fff;
+	font-size: 0.9rem;
+	color: #5dd5ca;
+	flex-shrink: 0;
+	padding: 0;
+}
+
+.filter{
+	padding: 0.5rem 1rem;
+}
+.filter .active dt{
+	color: #333;
+}
+.filter dd{
+	display: none;
+}
+.filter dt{
+	font-size: 0.87rem;
+	color: #aaa;
+}
+.filter dt:after{
+	content:'';
+	display: inline-block;
+	width: 4px;
+	height: 4px;
+	border: 1px solid #999;
+	margin-left: 0.5rem;
+	border-style: solid none none solid;
+	transform: rotate(225deg);
+	transform-origin:2px 1px ;
+	transition: all 0.3s;
+	
+}
+.filter .active dt:after{
+	transform: rotate(45deg);
+	
+}
+.filter dd{
+	color: #aaa;
+}
+.filter .active dd{
+	display: block;
+	background-color: rgba(0,0,0,0.3);
+	width: 100%;
+	height: 80vh;
+	position: absolute;
+	top: 90px;
+	left: 0;
+}
+.filter .active dd ul{
+	background-color: #fff;
+	
+}
+.filter .active dd ul li{
+	line-height: 3.5rem;
+	text-indent: 1rem;
+	
+}
+.filter dd ul li.active{
+	background-color: #f5f8f9;
+	color: #333;
+}
+
+.post_list{}
+.post_list .post_list_item{
+	margin: 1rem;
+	color: #414a60;
+	border-bottom: 1px solid #f5f8f9;
+	padding-bottom: 1rem;
+}
+.post_list .post_list_item>img{
+	width: 7.5em;
+	border-radius: 0.3rem;
+}
+.post_list .text{
+	flex: 1;
+	margin-left: 1rem;
+}
+.post_list .title{
+	font-size: 1rem;
+}
+.post_list .title span{
+	font-size: 1.2rem;
+	color: #fc6c38;
+	
+}
+.post_list .company{
+	font-size: 0.8rem;
+	margin: 0.2em 0;
+}
+
+.post_list .props{
+	font-size: 0.8rem;
+	margin-left: -0.2rem;
+}
+.post_list .props span{
+	padding: 0 0.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
